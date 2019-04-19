@@ -1,3 +1,33 @@
 h1 {
-  color: fuchsia;
+    color: fuchsia;
+}
+
+#imgheading
+{
+    display:flex;
+    justify-content:center;
+    background-color:black;
+}
+
+.log
+{
+    
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+.ad {
+  /*justify-content:;*/
+  width: 400px;
 }
