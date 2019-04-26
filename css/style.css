@@ -28,6 +28,7 @@ h1 {
   transition: 0.3s;
 }
 .ad {
+  /*Manny, Remember to put this below the tabs*/
   /*justify-content:;*/
   width: 400px;
 }
