@@ -1,5 +1,16 @@
+body{
+  background-color: black;
+}
 h1 {
-    color: fuchsia;
+    color: red;
+}
+#herolist {
+  font-weight: bold;
+  color: white;
+}
+#villainlist {
+  font-weight: bold;
+  color: white;
 }
 
 #imgheading
@@ -16,7 +27,7 @@ h1 {
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #fe2021;
 }
 .tab button {
   background-color: inherit;
@@ -27,8 +38,40 @@ h1 {
   padding: 14px 16px;
   transition: 0.3s;
 }
-.ad {
+.bigdickenergy {
   /*Manny, Remember to put this below the tabs*/
-  /*justify-content:;*/
-  width: 400px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  
+}
+.tab{
+    display:flex;
+    justify-content:center;
+}
+
+#search-row{
+    display:flex;
+    justify-content:flex-end;
+}
+
+#search-term{
+    border-radius:500px;
+}
+
+.bigbutton{
+    border-radius:500px;
+}
+#yikes {
+}
+.tablinks {
+  color: white;
+}
+#text {
+  color: white;
+}
+
+.ad{
+    display:block;
+    width:75%;
 }
