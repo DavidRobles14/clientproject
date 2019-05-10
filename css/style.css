@@ -42,7 +42,7 @@ h1 {
   /*Manny, Remember to put this below the tabs*/
   display: flex;
   flex-direction:column;
-  justify-content: center;
+  align-items:center;
   
 }
 .tab{
@@ -69,6 +69,7 @@ h1 {
 }
 #text {
   color: white;
+  text-align: center;
 }
 
 .ad{
