@@ -18,15 +18,6 @@ $(".bigbutton").click(function() {
             $('.bigdickenergy').append(
                 head + ima + pa
             );
-            
-            // $(".bigdickenergy").append(
-            //     "<img src ='" + imgSrc + "' class = 'ad'>"
-            //     );
-        
-            // $('.bigdickenergy').append(
-            //     "<p id='text'>" + descr + "</p>"
-            // );
-            
         },
     }); 
 });
@@ -44,5 +35,5 @@ $("#openMCU").click(function() {
 });
 $("#openabout").click(function() {
     $(".bigdickenergy").html("");
-    $(".bigdickenergy").html('<h2>This project is called "Why is Gamora" created by "We Love You 3000!" We created this page as a guide for those who dont watch Marvel or want to know more about their favorite characters!</h2>');
+    $(".bigdickenergy").html('<h2 class="text">This project is called "Why is Gamora" created by "We Love You 3000!" We created this page as a guide for those who dont watch Marvel or want to know more about their favorite characters!</h2><img src="http://hdqwalls.com/wallpapers/avengers-end-game-4j.jpg" id="marvelabout">');
 });
