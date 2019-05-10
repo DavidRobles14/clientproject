@@ -11,9 +11,9 @@ $(".bigbutton").click(function() {
             var imgSrc = response.data.results[0].thumbnail.path + "." + response.data.results[0].thumbnail.extension;
             var descr = response.data.results[0].description;
             var name = response.data.results[0].name;
-            var head = "<h1 id = 'text'>" + name + "</h1> ";
+            var head = "<h1 class = 'text'>" + name + "</h1> ";
             var ima = "<br/><img src ='" + imgSrc + "' class = 'ad'><br/>";
-            var pa = "<p id='text'>" + descr + "</p>";
+            var pa = "<p class='text' id='yoot'>" + descr + "</p>";
             console.log(imgSrc);
             $('.bigdickenergy').append(
                 head + ima + pa

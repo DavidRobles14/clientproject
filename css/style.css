@@ -67,9 +67,15 @@ h1 {
 .tablinks {
   color: white;
 }
-#text {
+.text {
   color: white;
   text-align: center;
+}
+#yoot:first-letter{
+    display:block;
+    float:left;
+    color:#f00;
+    font-size:200%;
 }
 
 .ad{
