@@ -73,9 +73,9 @@ h1 {
 }
 #yoot:first-letter{
     display:block;
-    float:left;
+    margin:5px;
     color:#f00;
-    font-size:200%;
+    font-size:300%;
 }
 
 .ad{
